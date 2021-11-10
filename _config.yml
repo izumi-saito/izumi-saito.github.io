@@ -1,2 +1,20 @@
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      
 theme: jekyll-theme-cayman
 title: Here comes title
+email: hogehoge@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  これはテストです。
+baseurl: ""
+url: ""
+
+include:
+  - .htaccess
+  - _pages
+
+sass:
+  sass_dir: _sass
